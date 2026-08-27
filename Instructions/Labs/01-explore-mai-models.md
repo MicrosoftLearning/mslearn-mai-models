@@ -121,6 +121,7 @@ Speech models can generate natural-sounding audio from text and convert spoken a
 	![Screenshot of the MAI Playground with the MAI-Transcribe-1.5 model selected and audio input controls displayed.](./media/mai-transcribe-playground.png)
 
 1. Upload the **freshbox-ad** audio file you created. Start the transcription and wait for the model to process the audio.
+   > **Note**: Ensure that the file downloaded is an .**mp3** or .**WAV** file, to avoid the format error message.
 
 1. Compare the generated transcript with the advertisement text. Look closely at:
 
