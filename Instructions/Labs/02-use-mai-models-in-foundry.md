@@ -6,7 +6,7 @@ lab:
   level: 200
   islab: true
   status: in-development
-  targetDate: 2026-09-04'
+  targetDate: 2026-09-11'
   primarytopics:
     - Microsoft AI models
 ---
