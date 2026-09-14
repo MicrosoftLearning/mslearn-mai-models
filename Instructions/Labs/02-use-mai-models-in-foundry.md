@@ -29,7 +29,10 @@ Microsoft Foundry uses *projects* to organize models, resources, data, and other
     - **Foundry resource**: *A valid name for your Foundry resource.*
     - **Subscription**: *Your Azure subscription*
     - **Resource group**: *Create or select a resource group*
-    - **Region**: Select any of the **AI Foundry recommended** regions in [this list](https://learn.microsoft.com/azure/foundry/openai/how-to/responses#supported-regions){:target="_blank"}
+    - **Region**: Select any of the following regions (which are supported for all MAI models at the time of writing):
+        - East US
+        - West Central US
+        - West US
 
     > **Tip**: Depending on your permissions in the Azure subscription, you may need to clear the option to set up recommended resources.
 
@@ -39,9 +42,9 @@ Microsoft Foundry uses *projects* to organize models, resources, data, and other
 
     ![Screenshot of the Foundry project home page.](./media/foundry-portal-home.png)
 
-## Deploy a model
+## Deploy and test an *MAI-Thinking* model
 
-At the heart of every AI agent, there's a large language model (LLM). Let's find one in the Foundry models catalog.
+Microsoft AI *MAI-Thinking* models are frontier large language models with reasoning capabilities. Ideal for implementing comprehensive AI apps and agents that can reason over contextual information and generate natural language responses.
 
 1. Now you're ready to explore models. On the **Discover** page, select the **Models** tab to view the Microsoft Foundry model catalog.
 
@@ -49,14 +52,52 @@ At the heart of every AI agent, there's a large language model (LLM). Let's find
 
     ![Screenshot of the AI Foundry model catalog.](./media/0-foundry-models.png)
 
-1. Search for and select the `MAI-Thinking-1` model, and view the page for this model, which describes its features and capabilities.
+1. Search for `MAI-Thinking` and select the latest available *MAI-Thinking-x* model, and view the page for this model, which describes its features and capabilities.
 
-    ![Screenshot of the MAI-Thinking-1 model page.](./media/mai-thinking.png)
+    ![Screenshot of the MAI-Thinking model page.](./media/mai-thinking.png)
 
 1. Use the **Deploy** button to deploy the model using the default settings. Deployment may take a minute or so.
 
-    > **Tip**: Model deployments are subject to quotas. If you don't have enough quota to deploy an *MAI-Thinking-1* model, you can request additional quota in the **Quotas** page in FOundry portal. Requesting additional quota does not guarantee it will be granted.
+    > **Tip**: Model deployments are subject to quotas. If you don't have enough quota to deploy an *MAI-Thinking* model, you can request additional quota in the **Quotas** page in FOundry portal. Requesting additional quota does not guarantee it will be granted.
 
 1. When the model has been deployed, view the model playground page that is opened, in which you can chat with the model.
 
-    ![Screenshot of the model playground.](./media/0-model-playground.png)
+    ![Screenshot of the model playground.](./media/model-playground.png)
+
+1. In the pane on the left, in the **Instructions** text area, change the system prompt to:
+
+    ```
+   You are an expert in the history of computing and AI. You only answer questions about significant people and events in the development of computing, and about notable vintage computers. Do not engage in conversations on any topic that is unrelated to computing history.
+    ```
+
+1. In the **Chat** pane, enter the prompt `Tell me about ELIZA.` and view the response.
+
+    ![Screenshot of the response from MAI Thinking.](./media/mai-thinking-chat.png)
+
+1. Continue the conversation with prompts such as `How does it compare with modern LLMs?`.
+
+## Deploy and test an *MAI-Image* model
+
+Microsoft AI *MAI-Image* models can generate and edit images based on descriptive prompts.
+
+1. In the Foundry portal, on the **Discover** page, select the **Models** page and search for `MAI-Image`. Then select any of the available *MAI-Image-x* models and view its information card.
+
+    ![Screenshot of the MAI-Image model page.](./media/mai-image.png)
+
+1. Use the **Deploy** button to deploy the model using the default settings. Deployment may take a minute or so.
+
+    > **Tip**: If your project is in an unsupported region, you can deploy the model to a new project with a Foundry resource in a different region.
+
+1. When the model has been deployed, view the model playground page that is opened, in which you can chat with the model.
+
+    ![Screenshot of the image model playground.](./media/image-playground.png)
+
+1. In the chat pane, enter the following prompt:
+
+    ```
+   A sleek, modern robot seated at a desk, using a 1980's personal computer with a keyboard and mouse.
+    ```
+
+1. Review the image that the model generates.
+
+    ![Screenshot of the image model playground with a generated image.](./media/mai-image-output.png)
