@@ -1,12 +1,11 @@
 ---
 lab:
-  title: Use Microsoft AI models in Microsoft Foundry
-  description: Deploy and consume MAI models in Foundry.
+  title: Explore Microsoft AI models in Microsoft Foundry
+  description: Deploy and test MAI models in Foundry.
   duration: 30 minutes
   level: 200
   islab: true
-  status: in-development
-  targetDate: 2026-09-11'
+  status: released
   primarytopics:
     - Microsoft AI models
 ---
@@ -44,7 +43,7 @@ Microsoft Foundry uses *projects* to organize models, resources, data, and other
 
 ## Deploy and test an *MAI-Thinking* model
 
-Microsoft AI *MAI-Thinking* models are frontier large language models with reasoning capabilities. Ideal for implementing comprehensive AI apps and agents that can reason over contextual information and generate natural language responses.
+Microsoft AI *MAI-Thinking* is a frontier large language model with reasoning capabilities. Ideal for implementing comprehensive AI apps and agents that can reason over contextual information and generate natural language responses.
 
 1. Now you're ready to explore models. On the **Discover** page, select the **Models** tab to view the Microsoft Foundry model catalog.
 
@@ -78,7 +77,7 @@ Microsoft AI *MAI-Thinking* models are frontier large language models with reaso
 
 ## Deploy and test an *MAI-Image* model
 
-Microsoft AI *MAI-Image* models can generate and edit images based on descriptive prompts.
+Microsoft AI *MAI-Image* is a model family can generate and edit images based on descriptive prompts.
 
 1. In the Foundry portal, on the **Discover** page, select the **Models** page and search for `MAI-Image`. Then select any of the available *MAI-Image-x* models and view its information card.
 
@@ -101,3 +100,49 @@ Microsoft AI *MAI-Image* models can generate and edit images based on descriptiv
 1. Review the image that the model generates.
 
     ![Screenshot of the image model playground with a generated image.](./media/mai-image-output.png)
+
+## Test an *MAI-Transcribe* model
+
+Microsoft AI *MAI-Transcribe* is a family of text to speech models that you can use to generate text transcriptions from spoken audio.
+
+1. In the Foundry portal, on the **Discover** page, select the **Models** page and search for `MAI-Transcribe`. Then select any of the available *MAI-Transcribe-x* models and view its information card.
+
+    ![Screenshot of the MAI-Transcribe model page.](./media/mai-transcribe.png)
+
+    MAI Transcribe models are provided through MIcrosoft Azure Speech in Foundry Tools; so you dont need to explicitly deploy the model.
+
+1. Open the MAI-Transcribe model in the playground, which is used to test Azure Speech service functionality.
+
+    ![Screenshot of the MAI-Transcribe model in the Speech Playground.](./media/mai-transcribe-foundry.png)
+
+1. Select **Start recording** and then speak into your system microphone - try saying something like "*Open the pod bay doors.*"
+
+1. Stop recording when you are finished, and view the transcription that is generated.
+
+    ![Screenshot of the MAI-Transcribe model with generated text.](./media/mai-transcribe-output.png)
+
+## Test an *MAI-Voice* model
+
+Microsoft AI *MAI-Voice* is a family of speech to text models that you can use to synthesize audio speech from text.
+
+1. In the Foundry portal, on the **Discover** page, select the **Models** page and search for `MAI-Voice`. Then select any of the available *MAI-Voice-x* models and view its information card.
+
+    ![Screenshot of the MAI-Voice model page.](./media/mai-voice.png)
+
+    MAI Voice models are provided through MIcrosoft Azure Speech in Foundry Tools; so you dont need to explicitly deploy the model.
+
+1. Open the MAI-Voice model in the playground, which is used to test Azure Speech service functionality.
+
+    ![Screenshot of the MAI-Voice model in the Speech Playground.](./media/mai-voice-foundry.png)
+
+1. Change the default text to "*I'm sorry Dave. I'm afraid I can't do that!*" and select **Play**.
+
+1. Listen to the speech that is synthesized.
+
+    ![Screenshot of the MAI-Voice model with generated text.](./media/mai-voice-output.png)
+
+## Summary
+
+In this exercise, you explored Microsoft AI models in Microsoft Foundry.
+
+If you have finished exploring Microsoft Foundry, you should delete the Azure resources created in this lab to avoid unnecessary utilization charges.
