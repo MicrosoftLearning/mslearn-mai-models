@@ -52,4 +52,4 @@ GitHub Copilot is an AI assistant that can generate code based on natural langua
 
 ## Summary
 
-In this exercise, you used a Microsoft AI Code model to generate application code in GitHub Copilot..
+In this exercise, you used a Microsoft AI Code model to generate application code in GitHub Copilot.
