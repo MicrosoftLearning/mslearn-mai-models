@@ -28,7 +28,7 @@ GitHub Copilot is an AI assistant that can generate code based on natural langua
 
     ![Screenshot of the GitHub Copilot site](./media/github-copilot.png)
 
-1. In the chat pane, change the selected model from **Auto** to the latest available **MAI-Code-*n.n*-Flash** model.
+1. In the chat pane, change the selected model from **Auto** to the latest available **MAI-Code-Flash** model.
 
     ![Screenshot of the GitHub Copilot site with an MAI-Code-n.n-Flash model selected](./media/github-copilot-mai-code.png)
 

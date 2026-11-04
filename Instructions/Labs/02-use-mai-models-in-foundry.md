@@ -51,7 +51,7 @@ Microsoft AI *MAI-Thinking* is a frontier large language model with reasoning ca
 
     ![Screenshot of the AI Foundry model catalog.](./media/0-foundry-models.png)
 
-1. Search for `MAI-Thinking` and select the latest available *MAI-Thinking-x* model, and view the page for this model, which describes its features and capabilities.
+1. Search for `MAI-Thinking` and select the latest available *MAI-Thinking* model, and view the page for this model, which describes its features and capabilities.
 
     ![Screenshot of the MAI-Thinking model page.](./media/mai-thinking.png)
 
@@ -79,7 +79,7 @@ Microsoft AI *MAI-Thinking* is a frontier large language model with reasoning ca
 
 Microsoft AI *MAI-Image* is a model family can generate and edit images based on descriptive prompts.
 
-1. In the Foundry portal, on the **Discover** page, select the **Models** page and search for `MAI-Image`. Then select any of the available *MAI-Image-x* models and view its information card.
+1. In the Foundry portal, on the **Discover** page, select the **Models** page and search for `MAI-Image`. Then select any of the available *MAI-Image* models and view its information card.
 
     ![Screenshot of the MAI-Image model page.](./media/mai-image.png)
 
@@ -105,7 +105,7 @@ Microsoft AI *MAI-Image* is a model family can generate and edit images based on
 
 Microsoft AI *MAI-Transcribe* is a family of text to speech models that you can use to generate text transcriptions from spoken audio.
 
-1. In the Foundry portal, on the **Discover** page, select the **Models** page and search for `MAI-Transcribe`. Then select any of the available *MAI-Transcribe-x* models and view its information card.
+1. In the Foundry portal, on the **Discover** page, select the **Models** page and search for `MAI-Transcribe`. Then select any of the available *MAI-Transcribe* models and view its information card.
 
     ![Screenshot of the MAI-Transcribe model page.](./media/mai-transcribe.png)
 
@@ -125,7 +125,7 @@ Microsoft AI *MAI-Transcribe* is a family of text to speech models that you can 
 
 Microsoft AI *MAI-Voice* is a family of speech to text models that you can use to synthesize audio speech from text.
 
-1. In the Foundry portal, on the **Discover** page, select the **Models** page and search for `MAI-Voice`. Then select any of the available *MAI-Voice-x* models and view its information card.
+1. In the Foundry portal, on the **Discover** page, select the **Models** page and search for `MAI-Voice`. Then select any of the available *MAI-Voice* models and view its information card.
 
     ![Screenshot of the MAI-Voice model page.](./media/mai-voice.png)
 

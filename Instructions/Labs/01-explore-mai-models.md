@@ -40,9 +40,9 @@ Open the [MAI Playground](https://playground.microsoft.ai/){:target="_blank"} at
 
 ## Chat with a reasoning model
 
-A reasoning model is designed to work through complex problems that involve constraints, trade-offs, and multiple possible solutions. In this section, you'll ask **MAI-Thinking-1** to recommend a launch strategy for FreshBox.
+A reasoning model is designed to work through complex problems that involve constraints, trade-offs, and multiple possible solutions. In this section, you'll ask **MAI-Thinking** to recommend a launch strategy for FreshBox.
 
-1. In the MAI Playground, select **MAI-Thinking-1**.
+1. In the MAI Playground, select **MAI-Thinking-*x***.
 
  ![Screenshot of the MAI Playground with the MAI-Thinking-1 model selected.](./media/mai-thinking-playground.png)
 
@@ -71,9 +71,9 @@ A reasoning model is designed to work through complex problems that involve cons
 
 1. Compare the revised answer with the original. Consider the following questions:
 
- - Did the model reduce activities that require significant staff time?
- - Did it preserve the strongest parts of the original strategy?
- - Are the revised budget and weekly workload plausible?
+- Did the model reduce activities that require significant staff time?
+- Did it preserve the strongest parts of the original strategy?
+- Are the revised budget and weekly workload plausible?
 
 1. Ask the model to turn its recommendation into a creative brief that you can reuse in the speech and image sections:
 
@@ -85,11 +85,11 @@ A reasoning model is designed to work through complex problems that involve cons
 
 ## Use speech models
 
-Speech models can generate natural-sounding audio from text and convert spoken audio into written text. In this section, you'll use **MAI-Voice-2** to create an advertisement based on the launch brief. You'll then use **MAI-Transcribe-1.5** to produce a transcript and check how well the message survived the round trip from text to speech and back to text.
+Speech models can generate natural-sounding audio from text and convert spoken audio into written text. In this section, you'll use **MAI-Voice** to create an advertisement based on the launch brief. You'll then use **MAI-Transcribe** to produce a transcript and check how well the message survived the round trip from text to speech and back to text.
 
 ### Generate an audio advertisement
 
-1. In the MAI Playground, select **MAI-Voice-2**.
+1. In the MAI Playground, select **MAI-Voice-*x***.
 
  ![Screenshot of the MAI Playground with the MAI-Voice-2 model selected and voice controls displayed.](./media/mai-voice-playground.png)
 
@@ -103,10 +103,10 @@ Speech models can generate natural-sounding audio from text and convert spoken a
 
 1. Evaluate the generated speech:
 
- - Is every word understandable?
- - Does the pacing fit a short advertisement?
- - Does the emphasis reinforce the main benefit and call to action?
- - Does the voice sound appropriate for the audience defined in the creative brief?
+- Is every word understandable?
+- Does the pacing fit a short advertisement?
+- Does the emphasis reinforce the main benefit and call to action?
+- Does the voice sound appropriate for the audience defined in the creative brief?
 
 1. Refine the input text or available voice settings and generate the speech again. For example, shorten a long sentence, add punctuation to create pauses, or replace a word that is pronounced unclearly.
 
@@ -116,7 +116,7 @@ Speech models can generate natural-sounding audio from text and convert spoken a
 
 ### Transcribe the advertisement
 
-1. In the MAI Playground, select **MAI-Transcribe-1.5**.
+1. In the MAI Playground, select **MAI-Transcribe-*x***.
 
  ![Screenshot of the MAI Playground with the MAI-Transcribe-1.5 model selected and audio input controls displayed.](./media/mai-transcribe-playground.png)
 
@@ -125,26 +125,26 @@ Speech models can generate natural-sounding audio from text and convert spoken a
 
 1. Compare the generated transcript with the advertisement text. Look closely at:
 
- - The product and company names, **FreshBox** and **Fabrikam Fresh**.
- - Punctuation and sentence boundaries.
- - Words that were emphasized, spoken quickly, or separated by pauses.
- - Any words you changed while refining the generated speech.
+- The product and company names, **FreshBox** and **Fabrikam Fresh**.
+- Punctuation and sentence boundaries.
+- Words that were emphasized, spoken quickly, or separated by pauses.
+- Any words you changed while refining the generated speech.
 
 1. Record at least one difference between the source text and the transcript. If the transcript is exact, identify one part of the audio that you expected might be difficult to transcribe and explain why.
 
-1. If you found a transcription error, return to **MAI-Voice-2** and generate another version that might be easier to transcribe. You could slow the delivery, add punctuation around a product name, or simplify the affected sentence. Transcribe the new version and compare the results.
+1. If you found a transcription error, return to **MAI-Voice-*x*** and generate another version that might be easier to transcribe. You could slow the delivery, add punctuation around a product name, or simplify the affected sentence. Transcribe the new version and compare the results.
 
  > **Important**: Speech generation and transcription can mispronounce or misinterpret names, numbers, accents, and specialist terms. In a real campaign, a person should review both the audio and transcript before publication. Always obtain consent before recording or transcribing another person.
 
 ## Generate images
 
-Image generation models create visual content from natural-language descriptions. In this section, you'll use **MAI-Image-2.6** to develop campaign artwork that follows the FreshBox creative brief.
+Image generation models create visual content from natural-language descriptions. In this section, you'll use **MAI-Image** to develop campaign artwork that follows the FreshBox creative brief.
 
-1. In the MAI Playground, select **MAI-Image-2.6**.
+1. In the MAI Playground, select **MAI-Image-*x***.
 
  ![Screenshot of the MAI Playground with the MAI-Image-2.6 model selected.](./media/mai-image-playground.png)
 
-1. Enter the following prompt. Replace the text in brackets with details from the creative brief generated by **MAI-Thinking-1**.
+1. Enter the following prompt. Replace the text in brackets with details from the creative brief generated by **MAI-Thinking**.
 
  ```prompt
  Create a polished promotional photograph for FreshBox, a weekly meal-kit subscription from a friendly neighborhood grocery business. Show an open recyclable meal-kit box on a bright kitchen counter, filled with colorful locally sourced vegetables, herbs, and neatly packed ingredients. In the background, a busy parent and a young professional prepare a healthy dinner together. The mood is [visual direction from the creative brief]. Natural late-afternoon light, authentic food photography, realistic textures, inviting but not luxurious, diverse community, landscape composition with clear uncluttered space on the left for campaign text. Do not include words, logos, prices, watermarks, or branded packaging.
@@ -152,10 +152,10 @@ Image generation models create visual content from natural-language descriptions
 
 1. Generate the image and review the result against the creative brief. Check whether:
 
- - The meal kit and locally sourced ingredients are the main focus.
- - The people, setting, and mood suit the target audience.
- - The image has usable empty space for text.
- - The image contains distorted objects, unwanted text, misleading details, or other visual artifacts.
+- The meal kit and locally sourced ingredients are the main focus.
+- The people, setting, and mood suit the target audience.
+- The image has usable empty space for text.
+- The image contains distorted objects, unwanted text, misleading details, or other visual artifacts.
 
 1. Refine one aspect of the prompt and generate another version. Be specific about the change you want. For example, you could change the camera angle, simplify the background, make the produce more prominent, or request more empty space for a headline.
 
@@ -167,8 +167,8 @@ Image generation models create visual content from natural-language descriptions
 
 Now that you've tried each model separately, create a second FreshBox campaign asset for a different channel, such as a social media post, an in-store display, or a short event announcement.
 
-Use **MAI-Thinking-1** to adapt the message for the channel, **MAI-Voice-2** or **MAI-Transcribe-1.5** if the asset includes audio, and **MAI-Image-2.6** to create a suitable visual. Keep the target audience, customer benefit, and call to action consistent across the assets.
+Use **MAI-Thinking** to adapt the message for the channel, **MAI-Voice** or **MAI-Transcribe** if the asset includes audio, and **MAI-Image** to create a suitable visual. Keep the target audience, customer benefit, and call to action consistent across the assets.
 
 ## Summary
 
-In this exercise, you used **MAI-Thinking-1** to reason about a campaign with budget, schedule, audience, and staffing constraints. You then used **MAI-Voice-2** and **MAI-Transcribe-1.5** to create and verify a spoken advertisement, and **MAI-Image-2.6** to generate and refine promotional artwork. Together, these activities showed how specialized models can contribute different capabilities to a single business workflow, and why human review remains essential at every stage.
+In this exercise, you used **MAI-Thinking** to reason about a campaign with budget, schedule, audience, and staffing constraints. You then used **MAI-Voice** and **MAI-Transcribe** to create and verify a spoken advertisement, and **MAI-Image** to generate and refine promotional artwork. Together, these activities showed how specialized models can contribute different capabilities to a single business workflow, and why human review remains essential at every stage.
