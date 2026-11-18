@@ -44,19 +44,19 @@ Microsoft Foundry uses *projects* to organize models, resources, data, and other
 
 Microsoft AI *MAI-Thinking* is a frontier large language model with reasoning capabilities. Ideal for implementing comprehensive AI apps and agents that can reason over contextual information and generate natural language responses.
 
-1. Now you're ready to explore models. In the navigation pane, select the **Catalog** page and view its **Models** tab to view the Microsoft Foundry model catalog.
+1. Now you're ready to explore models. In the navigation pane, select the **Catalog** page.
 
-    Microsoft Foundry provides a large collection of models from Microsoft, OpenAI, and other providers, that you can use in your AI apps and agents.
+    Microsoft Foundry provides a large catalog of models, services, tools, and other assets, that you can use in your AI apps and agents.
 
     ![Screenshot of the AI Foundry model catalog.](./media/discover_page.png)
 
-1. Search for `MAI-Thinking` and select the latest available *MAI-Thinking* model, and view the page for this model, which describes its features and capabilities.
+1. On the **Models** tab, search for `MAI-Thinking` and select the latest available *MAI-Thinking* model. Then view the page for this model, which describes its features and capabilities.
 
     ![Screenshot of the MAI-Thinking model page.](./media/mai-thinking.png)
 
 1. Use the **Deploy** button to deploy the model using the default settings. Deployment may take a minute or so.
 
-    > **Tip**: Model deployments are subject to quotas. If you don't have enough quota to deploy an *MAI-Thinking* model, you can request additional quota in the **Quotas** page in FOundry portal. Requesting additional quota does not guarantee it will be granted.
+    > **Tip**: Model deployments are subject to quotas. If you don't have enough quota to deploy an *MAI-Thinking* model, you can request additional quota in the **Quotas** page in Foundry portal. Requesting additional quota does not guarantee it will be granted.
 
 1. When the model has been deployed, view the model playground page that is opened, in which you can chat with the model.
 
