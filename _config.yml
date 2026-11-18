@@ -11,5 +11,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-mentions
   - jemoji
-markdown: GFM
+markdown: kramdown
 title: Introduction to Microsoft AI models

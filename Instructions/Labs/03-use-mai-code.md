@@ -37,8 +37,8 @@ GitHub Copilot is an AI assistant that can generate code based on natural langua
 1. In the chat pane, enter the following prompt:
 
     ```prompt
-    Create a "Star Invaders" HTML and JavaScript web page with an arcade game in which the player controls a capsule at the bottom of the screen that can move left and right along a strip of ground by using the A and D keys, and fire upwards by using the space bar to defend against a fleet of alien spaceships that are gradually moving down the screen. The alien ships can fire downwards, and if they hit the player's capsule or an alien ship reaches the ground at the bottom of the screen, it gets destroyed. The player has a total of three lives before the game ends.
-    Ensure I can run the game just by opening the web page in a web browser from the local file system.
+   Create a "Star Invaders" HTML and JavaScript web page with an arcade game in which the player controls a capsule at the bottom of the screen that can move left and right along a strip of ground by using the A and D keys, and fire upwards by using the space bar to defend against a fleet of alien spaceships that are gradually moving down the screen. The alien ships can fire downwards, and if they hit the player's capsule or an alien ship reaches the ground at the bottom of the screen, it gets destroyed. The player has a total of three lives before the game ends.
+   Ensure I can run the game just by opening the web page in a web browser from the local file system.
     ```
 
 1. Wait while GitHub Copilot considers the prompt and generates the required code.
