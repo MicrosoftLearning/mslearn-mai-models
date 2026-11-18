@@ -23,8 +23,7 @@ This lab should take approximately **35** minutes to complete.
 Microsoft Foundry uses *projects* to organize models, resources, data, and other assets used to develop an AI solution.
 
 1. In a web browser, open [Microsoft Foundry](https://ai.azure.com){:target="_blank"} at `https://ai.azure.com` and start building; signing in using your Azure credentials. Close any tips or quick start panes that are opened the first time you sign in, and if necessary use the **Foundry** logo at the top left to navigate to the home page.
-1. If it isn't already enabled, in the tool bar the top of the page, enable the **New Foundry** option.
-1. If you do not have any existing projects, you will be prompted to create one. Create a new project with a unique name; expanding the  **Advanced options** area to specify the following settings for your project (or you can select an existing project if you have one!):
+1. If you do not have any existing projects, you may be prompted to create one. If so, create a new project with a unique name; expanding the  **Advanced options** area to specify the following settings for your project:
     - **Foundry resource**: *A valid name for your Foundry resource.*
     - **Subscription**: *Your Azure subscription*
     - **Resource group**: *Create or select a resource group*
@@ -45,11 +44,11 @@ Microsoft Foundry uses *projects* to organize models, resources, data, and other
 
 Microsoft AI *MAI-Thinking* is a frontier large language model with reasoning capabilities. Ideal for implementing comprehensive AI apps and agents that can reason over contextual information and generate natural language responses.
 
-1. Now you're ready to explore models. On the **Discover** page, select the **Models** tab to view the Microsoft Foundry model catalog.
+1. Now you're ready to explore models. In the navigation pane, select the **Catalog** page and view its **Models** tab to view the Microsoft Foundry model catalog.
 
     Microsoft Foundry provides a large collection of models from Microsoft, OpenAI, and other providers, that you can use in your AI apps and agents.
 
-    ![Screenshot of the AI Foundry model catalog.](./media/0-foundry-models.png)
+    ![Screenshot of the AI Foundry model catalog.](./media/discover_page.png)
 
 1. Search for `MAI-Thinking` and select the latest available *MAI-Thinking* model, and view the page for this model, which describes its features and capabilities.
 
@@ -79,7 +78,7 @@ Microsoft AI *MAI-Thinking* is a frontier large language model with reasoning ca
 
 Microsoft AI *MAI-Image* is a model family can generate and edit images based on descriptive prompts.
 
-1. In the Foundry portal, on the **Discover** page, select the **Models** page and search for `MAI-Image`. Then select any of the available *MAI-Image* models and view its information card.
+1. In the Foundry portal, in the navigation pane, select the **Catalog** page and on its **Models** tab, search for `MAI-Image`. Then select any of the available *MAI-Image* models and view its information card.
 
     ![Screenshot of the MAI-Image model page.](./media/mai-image.png)
 
@@ -105,7 +104,7 @@ Microsoft AI *MAI-Image* is a model family can generate and edit images based on
 
 Microsoft AI *MAI-Transcribe* is a family of text to speech models that you can use to generate text transcriptions from spoken audio.
 
-1. In the Foundry portal, on the **Discover** page, select the **Models** page and search for `MAI-Transcribe`. Then select any of the available *MAI-Transcribe* models and view its information card.
+1. In the Foundry portal, in the navigation pane, select the **Catalog** page and on its **Models** tab, search for `MAI-Transcribe`. Then select any of the available *MAI-Transcribe* models and view its information card.
 
     ![Screenshot of the MAI-Transcribe model page.](./media/mai-transcribe.png)
 
@@ -125,7 +124,7 @@ Microsoft AI *MAI-Transcribe* is a family of text to speech models that you can 
 
 Microsoft AI *MAI-Voice* is a family of speech to text models that you can use to synthesize audio speech from text.
 
-1. In the Foundry portal, on the **Discover** page, select the **Models** page and search for `MAI-Voice`. Then select any of the available *MAI-Voice* models and view its information card.
+1. In the Foundry portal, in the navigation pane, select the **Catalog** page and on its **Models** tab, search for `MAI-Voice`. Then select any of the available *MAI-Voice* models and view its information card.
 
     ![Screenshot of the MAI-Voice model page.](./media/mai-voice.png)
 
